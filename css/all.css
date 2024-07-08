@@ -1,0 +1,33 @@
+img.round {
+    border-radius: 1rem;
+}
+
+img.maps {
+    box-shadow: 1px 1px 10rem #6450DC;
+    border: 3px #ab9cff solid;
+}
+
+.index.content {
+    color: #ebecf6;
+    text-shadow: 1px 1px 1rem #6450DC;
+}
+
+.index.content a {
+    color: #ebecf6;
+    text-shadow: 1px 1px 1rem #57ff3e;
+}
+
+.index.content a:hover {
+    color: #ffaae4;
+    text-shadow: 1px 1px 1rem #e6ffe2;
+}
+
+.index.content .tag {
+    border: 1px #ebecf6 solid;
+    box-shadow: 1px 1px 1rem #6450DC;
+}
+
+.index.content .tag span {
+    color: #ffffff;
+    text-shadow: 1px 1px 1rem #e6ffe2;
+}
