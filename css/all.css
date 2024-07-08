@@ -7,8 +7,13 @@ img.maps {
     border: 3px #ab9cff solid;
 }
 
-.index.content {
-    color: #ebecf6;
+.section h1.title {
+    color: #e6ffe2;
+    text-shadow: 1px 1px 0.7rem #f700ff;
+}
+
+.content {
+    color: #eeefff;
     text-shadow: 1px 1px 1rem #6450DC;
 }
 
@@ -30,4 +35,46 @@ img.maps {
 .index.content .tag span {
     color: #ffffff;
     text-shadow: 1px 1px 1rem #e6ffe2;
+}
+
+.section.music .columns .column img {
+    border-radius: 0.3rem;
+    border: 1px #e59cff solid;
+    box-shadow: 1px 1px 5rem #6450DC;
+}
+
+.section.techtalk .content p span.tag {
+    box-shadow: 1px 1px 5rem #6450DC;
+    border: 1px #6450DC solid;
+}
+
+@keyframes logo-shadow {
+    0% {
+        box-shadow: 1px 1px 1rem #6450DC;
+    }
+    25% {
+        box-shadow: 2px 1px 3rem #dc50d5;
+    }
+    50% {
+        box-shadow: 5px 5px 5rem #6450DC;
+        border: 1px #6450DC solid;
+    }
+    75% {
+        box-shadow: 1px 2px 3rem #ab50dc;
+    }
+    100% {
+        box-shadow: 1px 1px 1rem #6450DC;
+    }
+ }
+
+.footer .content p img.logo {
+    width: 150px;
+    border-radius: 0.5rem;
+    border: 1px #6550dc25 solid;
+    animation: logo-shadow ease-in-out 1200ms infinite;
+}
+
+.footer .content p {
+    font-size: smaller;
+    text-shadow: 1px 1px 5rem #6450DC;
 }
